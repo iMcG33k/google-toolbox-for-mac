@@ -593,6 +593,10 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = N328BC563N;
+						ProvisioningStyle = Automatic;
+					};
 					8B82CEF51D9C17DE007182AA = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -809,8 +813,12 @@
 		F4A0A964140438D50010B64B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N328BC563N;
+				ENABLE_BITCODE = NO;
 				GTM_HOST_GCC_PREPROCESSOR_DEFINITIONS = "GTM_USING_XCTEST=0 GTM_IPHONE_USE_SENTEST=0";
 				INFOPLIST_FILE = "GTMiPhone-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naton.GTMiPhone;
 				PRODUCT_NAME = GTMiPhoneTest;
 			};
 			name = Debug;
@@ -830,8 +838,12 @@
 		F4A0A96E140438ED0010B64B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N328BC563N;
+				ENABLE_BITCODE = NO;
 				GTM_HOST_GCC_PREPROCESSOR_DEFINITIONS = "GTM_USING_XCTEST=0 GTM_IPHONE_USE_SENTEST=0";
 				INFOPLIST_FILE = "GTMiPhone-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naton.GTMiPhone;
 				PRODUCT_NAME = GTMiPhoneTest;
 			};
 			name = Release;
